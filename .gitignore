@@ -1,0 +1,26 @@
+# Dependencies
+boost_1_72_0/
+boost_1_58_0/
+boost_1_58_0.zip
+boost_1_72_0.tar.gz
+
+# Compiled Static Libraries (The ones that caused the error)
+*.a
+*.la
+*.lai
+*.lo
+*.Plo
+*.Po
+
+# Build directories and precompiled headers
+.deps/
+.libs/
+*.gch
+bin.v2/
+
+# Binaries
+aerond
+aeron-cli
+aeron-qt
+test_aeron
+test_aeron-qt
